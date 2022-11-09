@@ -257,3 +257,7 @@ img {
 .campo__field--textarea {
     height: 20rem;
 }
+
+.contenedor_login{
+    margin-top:3.2rem;
+}

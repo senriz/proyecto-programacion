@@ -1,3 +1,7 @@
+:root{
+    --marron:#784D3C;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -49,14 +53,23 @@ form label input {
 
 .link{
     text-decoration: none;
-    color: #38b7b9;
+    color: var(--marron);
 }
 
 form button{
-    border: none;
-    background: #5f9ea0;
+    border: 2px solid var(--marron);
+    background: none;
     border-radius: 5px;
-    height: 20px;
+    height: 30px;
     width: 150px;
     font-size: medium;
+    text-align: center;
+    color: var(--marron);
+    transition: all 0.5ss;
+}
+
+form button:hover{
+    border-color:#000;
+    color: #fff;
+    background: #000;
 }
