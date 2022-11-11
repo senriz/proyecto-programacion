@@ -21,7 +21,8 @@ const addUser = (e) => {
     }
 
     localStorage.setItem(username, password);
-    alert("User added succesfully");
+        alert("User added succesfully");
+
 };
 
 // login

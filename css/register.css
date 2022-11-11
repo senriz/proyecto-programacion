@@ -26,6 +26,7 @@ form {
     align-items: center;
     padding: 30px 40px;
     box-shadow: 0 5px 25px rgba(71, 3, 6, 0.7);
+    border-radius: 5px;
 }
 
 form .title { 
@@ -73,3 +74,4 @@ form button:hover{
     color: #fff;
     background: #000;
 }
+
